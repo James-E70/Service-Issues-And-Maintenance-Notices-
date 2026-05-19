@@ -14,7 +14,7 @@ The skill drives a browser session to manage notices on the CargoWise My Account
 
 Before touching the browser, the skill walks you through a short question flow to collect everything it needs (notice type, product area, region, title, dates). 
 
-You log in to MyAccount yourself — credentials are never handled by the agent.
+You will need to log in to MyAccount yourself in the VS Code browser session that launches — credentials are never handled by the agent. Once logged in, the rest is automated.
 
 ---
 
