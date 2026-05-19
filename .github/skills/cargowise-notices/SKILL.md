@@ -38,40 +38,59 @@ Before touching the browser, collect answers to the following. Ask all questions
 - **Service Issue** — an unplanned outage, degraded functionality, or ongoing problem
 - **Maintenance Notice** — a planned maintenance window or scheduled downtime
 
-### 3. Product Area
-> "Which product area does this relate to?"
+### 3. Business Area + Location (Add only)
 
-Common areas (select or type):
-- CargoWise Cloud
-- Customs
-- Forwarding
-- Accounting / Finance
-- Warehousing
-- Portal / eCommerce
-- eAdaptor / EDI
-- Reporting
-- Other (specify)
+> "Which business area and location does this affect?"
 
-### 4. Region / Country
-> "Which region or country does this affect?"
+The form uses a **single combined "Business area + Location" dropdown**. The option chosen determines both the product area and the region — they are not separate questions. Use the mapping below to select the correct option:
 
-Examples: Global, Australia, United Kingdom, United States, Europe, Singapore, etc.
+**CargoWise Cloud** (select a data centre city):
+| Option | Maps to |
+|--------|---------|
+| Sydney | CargoWise Cloud – Sydney |
+| Chicago | CargoWise Cloud – Chicago |
+| Hamburg | CargoWise Cloud – Hamburg |
+| Shanghai | CargoWise Cloud – Shanghai |
+| Riyadh | CargoWise Cloud – Riyadh |
+| Global | CargoWise Cloud – Global |
 
-### 5. Notice Title / Description (Add only)
+**Customs** (select a country):
+| Option | Maps to |
+|--------|---------|
+| Australia | Customs – Australia |
+| Canada | Customs – Canada |
+| China | Customs – China |
+| France | Customs – France |
+| Germany | Customs – Germany |
+| Ireland | Customs – Ireland |
+| Japan | Customs – Japan |
+| New Zealand | Customs – New Zealand |
+| Singapore | Customs – Singapore |
+| Spain | Customs – Spain |
+| South Africa | Customs – South Africa |
+| Taiwan | Customs – Taiwan |
+| United Arab Emirates | Customs – UAE |
+| United Kingdom | Customs – United Kingdom |
+| United States | Customs – United States |
+| Global | Customs – Global |
+
+If the user says "CargoWise Cloud / UK" or similar, clarify that CargoWise Cloud options are data centre cities (Hamburg, Sydney, etc.), not countries.
+
+### 4. Notice Title / Description (Add only)
 > "What is the title/heading for the notice?"
 
-Keep it concise and factual. Example: *"CargoWise Cloud – Degraded Performance Impacting AU Region"*
+Keep it concise and factual. Example: *"CargoWise Cloud Hamburg – Degraded Performance"*
 
-### 6. Maintenance Dates (Maintenance Notice – Add only)
+### 5. Maintenance Dates (Maintenance Notice – Add only)
 > "What are the planned maintenance start and end date/time (include timezone)?"
 
 Example: *"Saturday 24 May 2026, 10:00 PM – 2:00 AM AEST"*
 
-### 7. Update Text (Update only)
+### 6. Update Text (Update only)
 > "What is the update message to add to the existing notice?"
 
-### 8. Identify the Notice (Update / Remove only)
-> "Can you confirm the exact notice title and/or region so I can locate it on the page?"
+### 7. Identify the Notice (Update / Remove only)
+> "Can you confirm the exact notice title and/or location so I can locate it on the page?"
 
 ---
 
@@ -99,11 +118,14 @@ Click the **"Enter Edit Mode"** link on the page. Take a screenshot to confirm t
 
 ### Step 4A — Add a New Notice
 
-1. From the **Location / Region dropdown**, select the applicable country or region.
-2. In the **Issue Title** field, type the notice title. For Maintenance Notices, include the dates in the title or body as agreed in the question flow.
-3. Click **"Add new issue"**.
-4. Wait for the page to return to `?mode=view`.
-5. Take a screenshot to confirm the notice appears under the correct product area and region.
+> **Important:** There are two separate "Add" forms on the page — one under **Service Issues** and one under **Maintenance Notices**. Scroll to the correct form before filling it in.
+
+1. Scroll to the **"Add a new issue"** form (for Service Issues) or the **"Add a new maintenance notice"** form (for Maintenance Notices).
+2. From the **"Business area + Location"** dropdown, select the option identified in the question flow. Remember: city names = CargoWise Cloud; country names = Customs.
+3. In the **Issue Title** field, type the notice title. For Maintenance Notices, include the dates in the title.
+4. Click **"Add new issue"** (or **"Add new maintenance notice"**).
+5. Confirm the page reloads and the new notice appears under the correct section heading and location.
+6. Take a screenshot to confirm the notice is live.
 
 ### Step 4B — Add an Update to an Existing Notice
 
