@@ -1,6 +1,6 @@
 # Service Issues and Maintenance Notices Tool
 
-A GitHub Copilot skill that lets you add, update, and remove entries on the [CargoWise Service Issues & Maintenance Notices](https://myaccount.cargowise.com/Home/CargoWise/ServiceIssuesMaintenanceNotices.aspx) page — directly from VS Code chat, with no manual browser navigation needed.
+A GitHub Copilot skill that lets you add, update, and remove entries on the [CargoWise Service Issues & Maintenance Notices](https://myaccount.cargowise.com/Home/CargoWise/ServiceIssuesMaintenanceNotices.aspx) page — directly from VS Code chat, with no manual browser navigation needed (besides MyAccount login).
 
 ---
 
@@ -12,13 +12,15 @@ The skill drives a browser session to manage notices on the CargoWise My Account
 - **Update** an existing notice with a new comment or status line
 - **Remove** a notice once it is resolved
 
-Before touching the browser, the skill walks you through a short question flow to collect everything it needs (notice type, product area, region, title, dates). You log in yourself — credentials are never handled by the agent.
+Before touching the browser, the skill walks you through a short question flow to collect everything it needs (notice type, product area, region, title, dates). 
+
+You log in yourself — credentials are never handled by the agent.
 
 ---
 
 ## How It Works
 
-1. You invoke the skill and describe what you want to do.
+1. You invoke the skill (see below) and describe what you want to do.
 2. The skill asks a series of questions (notice type, product area, region, content).
 3. It opens the CargoWise My Account portal in the integrated VS Code browser.
 4. You log in manually in that browser window.
@@ -62,7 +64,7 @@ your-workspace/
 
 Open GitHub Copilot Chat in **Agent mode** and either:
 
-- Type `/cargowise-notices` to invoke it directly as a slash command, or
+- Type `/cargowise-notices` to invoke it directly as a slash command, and press Enter, or
 - Describe your intent in natural language — Copilot will load the skill automatically when it detects relevant keywords:
 
 > *"Add a new service issue for the UK Customs module"*  
