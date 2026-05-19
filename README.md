@@ -1,6 +1,6 @@
 # Service Issues and Maintenance Notices Tool
 
-A GitHub Copilot skill that lets you add, update, and remove entries on the [CargoWise Service Issues & Maintenance Notices](https://myaccount.cargowise.com/Home/CargoWise/ServiceIssuesMaintenanceNotices.aspx) page — directly from VS Code chat, with no manual browser navigation needed (besides MyAccount login).
+A GitHub Copilot skill that lets you add, update, and remove entries on the [CargoWise Service Issues & Maintenance Notices](https://myaccount.cargowise.com/Home/CargoWise/ServiceIssuesMaintenanceNotices.aspx) page — directly from VS Code chat, with no manual browser navigation needed.
 
 ---
 
@@ -14,7 +14,7 @@ The skill drives a browser session to manage notices on the CargoWise My Account
 
 Before touching the browser, the skill walks you through a short question flow to collect everything it needs (notice type, product area, region, title, dates). 
 
-You log in yourself — credentials are never handled by the agent.
+You log in to MyAccount yourself — credentials are never handled by the agent.
 
 ---
 
