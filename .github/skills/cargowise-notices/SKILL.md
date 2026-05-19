@@ -42,37 +42,24 @@ Before touching the browser, collect answers to the following. Ask all questions
 
 > "Which business area and location does this affect?"
 
-The form uses a **single combined "Business area + Location" dropdown**. The option chosen determines both the product area and the region — they are not separate questions. Use the mapping below to select the correct option:
+The form uses a **single combined "Business area + Location" dropdown**, organised into optgroups. The option chosen determines both the product area and the region — they are not separate questions. Use the mapping below to select the correct option:
 
-**CargoWise Cloud** (select a data centre city):
-| Option | Maps to |
-|--------|---------|
-| Sydney | CargoWise Cloud – Sydney |
-| Chicago | CargoWise Cloud – Chicago |
-| Hamburg | CargoWise Cloud – Hamburg |
-| Shanghai | CargoWise Cloud – Shanghai |
-| Riyadh | CargoWise Cloud – Riyadh |
-| Global | CargoWise Cloud – Global |
-
-**Customs** (select a country):
-| Option | Maps to |
-|--------|---------|
-| Australia | Customs – Australia |
-| Canada | Customs – Canada |
-| China | Customs – China |
-| France | Customs – France |
-| Germany | Customs – Germany |
-| Ireland | Customs – Ireland |
-| Japan | Customs – Japan |
-| New Zealand | Customs – New Zealand |
-| Singapore | Customs – Singapore |
-| Spain | Customs – Spain |
-| South Africa | Customs – South Africa |
-| Taiwan | Customs – Taiwan |
-| United Arab Emirates | Customs – UAE |
-| United Kingdom | Customs – United Kingdom |
-| United States | Customs – United States |
-| Global | Customs – Global |
+| Section | Available options |
+|---------|------------------|
+| **CargoWise Cloud** | Sydney, Chicago, Hamburg, Shanghai, Riyadh, Global |
+| **Customs** | Australia, Canada, China, France, Germany, Ireland, Japan, New Zealand, Singapore, Spain, South Africa, Taiwan, United Arab Emirates, United Kingdom, United States |
+| **Denied Party Screening** | Global |
+| **BorderWise** | Global |
+| **Air Waybill Automation** | Global |
+| **Container Automation** | Global |
+| **Core Functions** | Global |
+| **eCommerce** | Global |
+| **Forwarding** | Global |
+| **Rates** | Global |
+| **WMS** | Global |
+| **Experimental Web Version** | Global |
+| **Other** | Global |
+| **All Products** | Global |
 
 If the user says "CargoWise Cloud / UK" or similar, clarify that CargoWise Cloud options are data centre cities (Hamburg, Sydney, etc.), not countries.
 
